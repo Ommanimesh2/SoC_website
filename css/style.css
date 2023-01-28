@@ -2,7 +2,7 @@
     IMPORT FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Manrope:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 
 /*------------------------------------------------------------------
@@ -16,11 +16,16 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
-
+@font-face {
+	font-family: sui;
+	src: 
+		url('../fonts/sui_generis_rg.otf')
+		format('opentype');
+}
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Manrope', sans-serif;
     line-height: 1.80857;
 }
 
@@ -53,7 +58,8 @@ h6 {
 }
 
 h1 {
-    font-size: 24px
+    font-size: 6em;
+	font-family: 'sui';
 }
 
 h2 {
@@ -61,7 +67,9 @@ h2 {
 }
 
 h3 {
-    font-size: 18px
+    font-size: 2em;
+	font-family:'Sofia Pro';
+
 }
 
 h4 {
@@ -283,14 +291,16 @@ button:focus{
 }
 
 .top-header .navbar .navbar-collapse ul li a{
-	padding: 19px 15px;
-	text-transform: uppercase;
+	padding: 7px 10px;
+	text-transform: none;
+	margin:0 10px;
 	font-size: 18px;
 }
 
 .top-header .navbar .navbar-collapse ul li a.active{
-	background: #dd666c;
-	color: #ffffff;
+	
+	color: #000000;
+	font-weight: bold;
 }
 
 .top-header .navbar .navbar-collapse ul li a:hover{
