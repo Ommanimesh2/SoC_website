@@ -988,7 +988,18 @@ section {
   
   }
   
-
+#overview {
+	font-weight: bold;
+	color: #faaf47;
+}
+#who {
+	font-weight: bold;
+	color: #4cbeb8;
+}
+#how {
+	font-weight: bold;
+	color: #d91d57;
+}
 
 
 
